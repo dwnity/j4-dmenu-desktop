@@ -29,7 +29,7 @@ class Main
 {
 public:
     Main()
-        : dmenu_command("dmenu -i"), terminal("i3-sensible-terminal") {
+        : dmenu_command("dmenu -i -l 25 -z 1000"), terminal("i3-sensible-terminal") {
 
     }
 
